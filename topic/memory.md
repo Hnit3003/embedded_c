@@ -70,3 +70,18 @@ Hybrid memories có thể đọc và ghi như RAM, nhưng vẫn giữ được d
 - Mỗi một byte của EEPROM có thể bị xóa và ghi lại.
 - Giá thành khá cao.
 - EEPROM thường có 10000, 100000 chu kỳ ghi tối đa.
+- EEPROM thường có sẵn trong các chuẩn giao tiếp song song và nối tiếp (address và data bus).
+
+##### FLASH
+- FLASH là sự kết hợp của toàn bộ ưu điểm của các thiết bị bộ nhớ cho đến nay.
+- FLASH có đặc điểm: mật độ cao (dung lương cao), giá thành rẻ hơn các loại Hybrid memory khác, tốc độ đọc nhanh, ghi trung bình, thao tác lập trình lại bằng điện, nonvolatile.
+- Để xóa và ghi dữ liệu và FLASH, cần một trình tự ghi dữ liệu cụ thể sử dụng các giá trị có sẵn.
+- FLASH chỉ có thể xóa theo sector (8 KB ~ 64 KB)
+
+##### NVRAM - Nonvolatile RAM
+
+- NVRAM được xem là một SRAM có nguồn pin dự phòng.
+- Khi có nguồn cấp, NV hoạt động như một SRAM thông thường. Nhưng khi ngắt nguồn thì NVRAM dùng pin để giữ lại dữ liệu mà nó đang lưu.
+
+<img src="./image/Memory device characteristics.png">
+<img src="./image/Memory device characteristics continue.png">
