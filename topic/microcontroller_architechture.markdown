@@ -4,9 +4,8 @@ EMBEDDED C
 
 ## Microprocessor vs Microcontroller -- Vi xử lý và Vi điều khiển
 
-![A diagram of a bus system Description automatically
-generated](./media/image1.png){width="4.061403105861768in"
-height="1.4119324146981627in"}
+<img src="./image/microprocessor.png">
+
 
 Vi xử lý là một bộ điều khiển máy tính có hiệu năng mạnh mẽ được tích
 hợp vào một IC duy nhất. Vi xử lý chỉ thực hiện các hoạt động tính toán
@@ -14,9 +13,7 @@ logic như bộ ALU (Arithmetic Logical Unit) và giao tiếp với các ngoại
 khác được đặt bên ngoài vi xử lý. Đặc trưng của vi xử lý là mạnh về tính
 toán, xử lý dung lượng dữ liệu lớn, giá thành cao.
 
-![A diagram of a microcontroller Description automatically
-generated](./media/image2.png){width="3.978637357830271in"
-height="1.9578379265091863in"}
+<img src="./image/microcontroller.png">
 
 Vi điều khiển là một tập hợp các thành phần của một máy tính nhỏ, gồm bộ
 xử lý trung tâm và các thành phần ngoại vi được tích hợp vào trên một IC
@@ -28,155 +25,93 @@ là hiệu năng tương đối, khả năng giao tiếp điều khiển cao, gi
 
 ### Các loại Vi điều khiển hiện nay
 
-[Họ vi điều khiển
-AMCC](https://vi.wikipedia.org/w/index.php?title=H%E1%BB%8D_vi_%C4%91i%E1%BB%81u_khi%E1%BB%83n_AMCC&action=edit&redlink=1) (do
-tập đoàn \"Applied Micro Circuits Corporation\" sản xuất). Từ [tháng
-5](https://vi.wikipedia.org/wiki/Th%C3%A1ng_n%C4%83m) năm [2004](https://vi.wikipedia.org/wiki/2004),
-họ vi điều khiển này được phát triển và tung ra thị trường
-bởi [IBM](https://vi.wikipedia.org/wiki/IBM). Các vi điều khiển của họ
-AMCC sau đây đều thuộc PowerPC 400 family (32-bit RISC):
+**Họ vi điều khiển AMCC** (do tập đoàn \"Applied Micro Circuits Corporation\" sản xuất). Từ tháng 5, họ vi điều khiển này được phát triển và tung ra thị trường bởi IBM. Các vi điều khiển họ AMCC sau đây đều thuộc PowerPC 400 family (32-bit RISC):
 
--   403 [PowerPC](https://vi.wikipedia.org/wiki/PowerPC) CPU
-
+-   403 PowerPC CPU
 -   PPC 403GCX
-
 -   405 PowerPC CPU
-
 -   PPC 405EP
-
 -   PPC 405GP/CR
-
 -   PPC 405GPr
-
 -   PPC NPe405H/L
-
 -   440 PowerPC Book-E CPU
-
 -   PPC 440GP
-
 -   PPC 440GX
-
 -   PPC 440EP/EPx/GRx
-
 -   PPC 440SP/SPe
 
-Họ vi điều khiển Atmel:
+**Họ vi điều khiển Atmel:**
 
--   Dòng 8051 (8031, 8051, 8751, 8951, 8032, 8052, 8752, 8952) (8-bit
-    8051/MCS51)
-
+-   Dòng 8051 (8031, 8051, 8751, 8951, 8032, 8052, 8752, 8952) (8-bit 8051/MCS51)
 -   Dòng Atmel AT91 (16/32-bit ARM THUMB)
-
--   Dòng AT90, Tiny & Mega -- AVR (Atmel Norway design) (8-bit AVR
-    RISC-Based)
-
+-   Dòng AT90, Tiny & Mega -- AVR (Atmel Norway design) (8-bit AVR RISC-Based)
 -   Dòng Atmel AT89 (8-bit 8051/MCS51)
-
 -   Dòng MARC4 (4-bit Harvard)
 
-[Họ vi điều khiển Freescale
-Semiconductor](https://vi.wikipedia.org/w/index.php?title=H%E1%BB%8D_vi_%C4%91i%E1%BB%81u_khi%E1%BB%83n_Freescale_Semiconductor&action=edit&redlink=1).
-Từ năm 2004, những vi điều khiển này được phát triển và tung ra thị
-trường bởi [Motorola](https://vi.wikipedia.org/wiki/Motorola):
+**Họ vi điều khiển Freescale Semiconductor**. Từ năm 2004, những vi điều khiển này được phát triển và tung ra thị trường bởi Motorola:
 
 -   68HC05 (CPU05) (8-bit Von Neumann)
-
 -   68HC08 (CPU08) (8-bit Von Neumann)
-
--   68HC11 (CPU11) (8-bit Freescale 68HC11: 8-bit data and 16-bit
-    address)
-
+-   68HC11 (CPU11) (8-bit Freescale 68HC11: 8-bit data and 16-bit address)
 -   68HC12 (CPU12) (16-bit Enhacement of Freescale 68HC11)
-
 -   68HC16 (CPU16) (16-bit Freescale 68HC11)
-
 -   Freescale DSP56800 (DSPcontroller) (16-bit DSP56800E)
-
 -   Freescale 683XX (CPU32) (32-bit 68000)
-
 -   MPC500 (32-bit RISC)
-
 -   MPC 860 (32-bit PowerQUICC)
-
 -   MPC 8240/8250 (32-bit PowerQUICC II)
-
 -   MPC 8540/8555/8560 (32-bit PowerQUICC III)
 
-Họ vi điều khiển Fujitsu:
+**Họ vi điều khiển Fujitsu:**
 
 -   F²MC Family (8/16-bit Core Sub-Architecture: F~­~^2^MC)
-
 -   FR Family (32-bit RISC)
-
 -   FR-V Family (32 bit RISC)
 
-Họ vi điều khiển Intel:
+**Họ vi điều khiển Intel:**
 
 -   8XC42 (8-bit 8051/MCS51)
-
 -   MCS48 (8-bit modified Harvard)
-
 -   MCS51 (8-bit 8051/MCS51)
-
 -   8061 (8-bit 8051/MCS51)
-
 -   8xC251 (8-bit 8051/MCS51)
-
 -   MCS96 (16-bit MCS-96)
-
 -   MXS296 (16-bit MCS-96)
-
 -   i960 (32-bit RISC)
 
-Họ vi điều khiển Microchip:
+**Họ vi điều khiển Microchip:**
 
--   Instruction 12-bit (Base-line): PIC10F, PIC12F và một vài PIC16F
-    (8-bit RISC)
-
--   Instruction 14-bit (Mid-Range và Enhance Mid-Range): PIC16Fxxx,
-    PIC16F1xxx (8-bit RISC)
-
+-   Instruction 12-bit (Base-line): PIC10F, PIC12F và một vài PIC16F (8-bit RISC)
+-   Instruction 14-bit (Mid-Range và Enhance Mid-Range): PIC16Fxxx, PIC16F1xxx (8-bit RISC)
 -   Instruction 16-bit (High Performance): PIC18F (8-bit RISC)
-
 -   PIC điều khiển động cơ: dsPIC30F (16-bit Modified Harvard)
-
 -   PIC có DSC: dsPIC33F (16-bit Modified Harvard)
-
 -   Phổ thông: PIC24F, PIC24E, PIC24H (16-bit Modified Harvard)
-
 -   PIC32MX (32-bit M4K -- Harvard)
 
-Họ vi điều khiển National Semiconductor:
+**Họ vi điều khiển National Semiconductor:**
 
 -   COP8 (8-bit CISC)
-
 -   CR16 (16-bit RISC)
 
-Họ vi điều khiển STMicroelectronics:
+**Họ vi điều khiển STMicroelectronics:**
 
 -   ST 62 (8-bit Harvard)
-
 -   ST7 (16-bit von Neumann)
-
 -   STM8 (8-bit Harvard)
-
 -   STM32 (32-bit ARM)
 
-Họ vi điều khiển Philips Semiconductors
+**Họ vi điều khiển Philips Semiconductors**
 
 -   LPC2000 (32-bit ARM)
-
 -   LPC900 (8-bit 80C51)
-
 -   LPC700 (32-bit ARM)
 
-TI
+TI ?
 
 ### Phân loại Vi điều khiển
 
-[Phân loại theo số bit cấu tạo:]{.underline} số bit của Vi điều khiển
-được xác định là số bit của thanh ghi, độ dài tập lệnh, số bit bộ ALU
-trong CPU xử lý được, số bit của databus hoặc addressbus.
+**Phân loại theo số bit cấu tạo:** số bit của Vi điều khiển được xác định là số bit của thanh ghi, độ dài tập lệnh, số bit bộ ALU trong CPU xử lý được, số bit của databus hoặc addressbus.
 
 +------------+---------------------------------------------------------+
 | **Số bit   | **Dòng Vi điều khiển**                                  |
@@ -206,7 +141,7 @@ trong CPU xử lý được, số bit của databus hoặc addressbus.
 | **64-bit** | PowerPC64                                               |
 +------------+---------------------------------------------------------+
 
-[Phân loại theo kiến trúc phần cứng:]{.underline}
+**Phân loại theo kiến trúc phần cứng:**
 
 -   Kiến trúc Harvard và kiến trúc Von-Neumann: (*đây là hai kiến trúc
     VĐK cơ bản)*
