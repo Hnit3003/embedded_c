@@ -1,0 +1,651 @@
+<mxfile host="app.diagrams.net" modified="2024-02-22T11:02:48.941Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="vP_aTu0hIT-1fTohij3S" version="23.1.5" type="device" pages="12">
+  <diagram name="Page-1" id="j0RM7d5a05mfN344iT0T">
+    <mxGraphModel dx="1212" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-9" value="" style="group;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="360" y="50" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-2" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;&lt;b&gt;#include&lt;/b&gt; &lt;/font&gt;&quot;library1.h&quot;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;#include&lt;/font&gt;&lt;/b&gt; &quot;library2.h&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt; &lt;/b&gt;main(&lt;b&gt;&lt;font color=&quot;#e00606&quot;&gt;void&lt;/font&gt;&lt;/b&gt;)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;   lib1_func1();&lt;br&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#e00606&quot;&gt;uint8_t&lt;/font&gt;&lt;/b&gt; var;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;   lib2_func2(&lt;/span&gt;var&lt;span style=&quot;white-space: pre;&quot;&gt;);&#x9;&lt;/span&gt;&lt;br&gt;}&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" parent="d_9i_X4gSKWtISeydRqQ-9" vertex="1">
+          <mxGeometry y="31.363636363636363" width="200" height="198.63636363636363" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-8" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;main.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="d_9i_X4gSKWtISeydRqQ-9" vertex="1">
+          <mxGeometry x="66.66666666666667" width="66.66666666666667" height="31.363636363636363" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-10" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="120" y="570" width="210" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-11" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;#include&lt;/font&gt;&lt;/b&gt; &quot;library1.h&quot;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;/*Definition lib1_func1*/&lt;/font&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#e10e0e&quot;&gt;int&lt;/font&gt;&lt;font color=&quot;#e00606&quot;&gt; &lt;/font&gt;&lt;/b&gt;lib1_func1(&lt;b&gt;&lt;font color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;/b&gt;)&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#00cc00&quot;&gt;/*body of lib1_func1*/&lt;br&gt;&amp;nbsp; &amp;nbsp; ...&lt;/font&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#e10e0e&quot;&gt;return &lt;/font&gt;&lt;/b&gt;0;&lt;br&gt;}&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" parent="d_9i_X4gSKWtISeydRqQ-10" vertex="1">
+          <mxGeometry y="31.36" width="210" height="198.64" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-12" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;library1.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="d_9i_X4gSKWtISeydRqQ-10" vertex="1">
+          <mxGeometry x="66.66666666666667" width="66.66666666666667" height="31.363636363636363" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-13" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="600" y="570" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-14" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;#include&lt;/font&gt; &lt;/b&gt;&quot;library2.h&quot;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;/*Declaration variable*/&lt;/font&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#e00606&quot;&gt;uint8_t &lt;/font&gt;&lt;/b&gt;lib2_var2;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#00cc00&quot;&gt;/*Definition lib2_func2*/&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#e10e0e&quot; style=&quot;border-color: var(--border-color);&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lib2_func2(&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;color: rgb(225, 14, 14);&quot;&gt;int &lt;/b&gt;a&lt;/font&gt;&lt;/span&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;{&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#00cc00&quot;&gt;/*body of lib2_func2*/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; ...&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;}&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" parent="d_9i_X4gSKWtISeydRqQ-13" vertex="1">
+          <mxGeometry y="31.36" width="200" height="198.64" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-15" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;library2.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="d_9i_X4gSKWtISeydRqQ-13" vertex="1">
+          <mxGeometry x="66.66666666666667" width="66.66666666666667" height="31.363636363636363" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-16" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="600" y="320" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-17" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;&lt;b style=&quot;&quot;&gt;#ifndef&lt;/b&gt;&lt;/font&gt; LIBRARY2_H&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;&lt;b&gt;#define&lt;/b&gt;&lt;/font&gt; LIBRARY2_H&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;/*Declaration function*/&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lib2_func2(&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;color: rgb(225, 14, 14);&quot;&gt;int &lt;/b&gt;a&lt;/font&gt;&lt;/span&gt;);&lt;br&gt;&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;&lt;b style=&quot;&quot;&gt;#endif&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" parent="d_9i_X4gSKWtISeydRqQ-16" vertex="1">
+          <mxGeometry y="27.272727272727273" width="200" height="172.72727272727272" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-18" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;library2.h&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="d_9i_X4gSKWtISeydRqQ-16" vertex="1">
+          <mxGeometry x="66.66666666666667" width="66.66666666666667" height="27.272727272727273" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-19" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="120" y="320" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-20" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;#ifndef&lt;/font&gt;&lt;/b&gt; LIBRARY1_H&lt;br&gt;&lt;font color=&quot;#3399ff&quot;&gt;&lt;b&gt;#define&lt;/b&gt;&lt;/font&gt; LIBRARY1_H&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;/*Declaration function*/&lt;br&gt;&lt;/font&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lib1_func1(&lt;b&gt;&lt;font color=&quot;#e00606&quot;&gt;void&lt;/font&gt;&lt;/b&gt;);&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;#endif&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" parent="d_9i_X4gSKWtISeydRqQ-19" vertex="1">
+          <mxGeometry y="27.272727272727273" width="200" height="172.72727272727272" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-21" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;library1.h&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="d_9i_X4gSKWtISeydRqQ-19" vertex="1">
+          <mxGeometry x="66.66666666666667" width="66.66666666666667" height="27.272727272727273" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="d_9i_X4gSKWtISeydRqQ-2" target="d_9i_X4gSKWtISeydRqQ-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="d_9i_X4gSKWtISeydRqQ-2" target="d_9i_X4gSKWtISeydRqQ-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="d_9i_X4gSKWtISeydRqQ-20" target="d_9i_X4gSKWtISeydRqQ-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_9i_X4gSKWtISeydRqQ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="d_9i_X4gSKWtISeydRqQ-17" target="d_9i_X4gSKWtISeydRqQ-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YWwxDCnQPrUCnuEenY8g" name="Page-2">
+    <mxGraphModel dx="693" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-21" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;dashed=1;dashPattern=1 1;perimeterSpacing=0;fillColor=none;strokeColor=#3399FF;" parent="1" vertex="1">
+          <mxGeometry x="80" y="20" width="1000" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-1" value="" style="group;fillColor=#1788BF;strokeColor=#006EAF;fontColor=#ffffff;strokeWidth=3;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="480" y="40" width="205" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-2" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;&lt;b&gt;#include&lt;/b&gt; &lt;/font&gt;&quot;library1.h&quot;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;#include&lt;/font&gt;&lt;/b&gt; &quot;library2.h&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#e00606&quot;&gt;uint8_t&lt;/font&gt;&lt;/b&gt; state;&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt; &lt;/b&gt;main(&lt;b&gt;&lt;font color=&quot;#e00606&quot;&gt;void&lt;/font&gt;&lt;/b&gt;)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;   lib1_func1();&lt;br&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#e00606&quot;&gt;uint8_t&lt;/font&gt;&lt;/b&gt; var;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;   lib2_func2(&lt;/span&gt;var&lt;span style=&quot;white-space: pre;&quot;&gt;);&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;   &lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;while&lt;/font&gt;&lt;/b&gt;(1)&lt;br&gt;    {&lt;br&gt;        &lt;b&gt;&lt;font color=&quot;#e00606&quot;&gt;uint8_t&lt;/font&gt;&lt;/b&gt; cnt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font color=&quot;#00cc00&quot;&gt;...&lt;/font&gt;&lt;br&gt;    }&#x9;&lt;/span&gt;&lt;br&gt;}&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" parent="ht2UmhOGXqKOYj0co9Qx-1" vertex="1">
+          <mxGeometry y="49.09090909090909" width="204.99999999999997" height="310.9090909090909" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-3" value="&lt;font size=&quot;1&quot; style=&quot;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;main.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ht2UmhOGXqKOYj0co9Qx-1" vertex="1">
+          <mxGeometry x="67.64999999999999" y="8.405793103448277" width="68.33675" height="36.682758620689654" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-35" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;dashed=1;dashPattern=1 1;perimeterSpacing=0;fillColor=none;strokeColor=#AD0B0B;" parent="ht2UmhOGXqKOYj0co9Qx-1" vertex="1">
+          <mxGeometry x="-10" y="135.5" width="210" height="214.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-4" value="" style="group;fillColor=#dae8fc;strokeColor=#6C8EBF;strokeWidth=3;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="200" y="559" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-5" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;#include&lt;/font&gt;&lt;/b&gt; &quot;library1.h&quot;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;/*Definition lib1_func1*/&lt;/font&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#e10e0e&quot;&gt;int&lt;/font&gt;&lt;font color=&quot;#e00606&quot;&gt; &lt;/font&gt;&lt;/b&gt;lib1_func1(&lt;b&gt;&lt;font color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;/b&gt;)&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#00cc00&quot;&gt;/*body of lib1_func1*/&lt;br&gt;&amp;nbsp; &amp;nbsp; ...&lt;/font&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#e10e0e&quot;&gt;return &lt;/font&gt;&lt;/b&gt;0;&lt;br&gt;}&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" parent="ht2UmhOGXqKOYj0co9Qx-4" vertex="1">
+          <mxGeometry y="31.36" width="200" height="198.64" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-6" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;library1.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ht2UmhOGXqKOYj0co9Qx-4" vertex="1">
+          <mxGeometry x="63.492063492063494" width="63.492063492063494" height="31.363636363636363" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-10" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="770" y="320" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-11" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;&lt;b style=&quot;&quot;&gt;#ifndef&lt;/b&gt;&lt;/font&gt; LIBRARY2_H&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;&lt;b&gt;#define&lt;/b&gt;&lt;/font&gt; LIBRARY2_H&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;/*Declaration function*/&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lib2_func2(&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;color: rgb(225, 14, 14);&quot;&gt;int &lt;/b&gt;a&lt;/font&gt;&lt;/span&gt;);&lt;br&gt;&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;&lt;b style=&quot;&quot;&gt;#endif&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" parent="ht2UmhOGXqKOYj0co9Qx-10" vertex="1">
+          <mxGeometry y="27.272727272727273" width="200" height="172.72727272727272" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-12" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;library2.h&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ht2UmhOGXqKOYj0co9Qx-10" vertex="1">
+          <mxGeometry x="66.66666666666667" width="66.66666666666667" height="27.272727272727273" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-13" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="200" y="320" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-14" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;#ifndef&lt;/font&gt;&lt;/b&gt; LIBRARY1_H&lt;br&gt;&lt;font color=&quot;#3399ff&quot;&gt;&lt;b&gt;#define&lt;/b&gt;&lt;/font&gt; LIBRARY1_H&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;/*Declaration function*/&lt;br&gt;&lt;/font&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lib1_func1(&lt;b&gt;&lt;font color=&quot;#e00606&quot;&gt;void&lt;/font&gt;&lt;/b&gt;);&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;#endif&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" parent="ht2UmhOGXqKOYj0co9Qx-13" vertex="1">
+          <mxGeometry y="27.272727272727273" width="200" height="172.72727272727272" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-15" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;library1.h&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ht2UmhOGXqKOYj0co9Qx-13" vertex="1">
+          <mxGeometry x="66.66666666666667" width="66.66666666666667" height="27.272727272727273" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ht2UmhOGXqKOYj0co9Qx-2" target="ht2UmhOGXqKOYj0co9Qx-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ht2UmhOGXqKOYj0co9Qx-2" target="ht2UmhOGXqKOYj0co9Qx-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ht2UmhOGXqKOYj0co9Qx-14" target="ht2UmhOGXqKOYj0co9Qx-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="295" y="530" />
+              <mxPoint x="295" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ht2UmhOGXqKOYj0co9Qx-11" target="ht2UmhOGXqKOYj0co9Qx-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-23" value="&lt;font color=&quot;#3399ff&quot; face=&quot;Antikor Mono&quot; style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;All source code scope&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;dashed=1;dashPattern=1 1;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="950" y="155" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-24" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;dashed=1;dashPattern=1 1;perimeterSpacing=0;fillColor=none;strokeColor=#05711A;" parent="1" vertex="1">
+          <mxGeometry x="500" y="287" width="180" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-25" value="&lt;font color=&quot;#05711a&quot; size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;inside while(1) loop scope&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#05711A;dashed=1;dashPattern=1 1;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="630" y="303" width="130" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-27" value="&lt;font color=&quot;#1788bf&quot; size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;main.c source file scope&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1788BF;dashed=1;dashPattern=1 1;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="660" y="80" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-29" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;dashed=1;dashPattern=1 1;perimeterSpacing=0;fillColor=none;strokeColor=#FF8000;glass=1;" parent="1" vertex="1">
+          <mxGeometry x="195" y="660" width="199" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-30" value="&lt;font color=&quot;#ff8000&quot; face=&quot;Antikor Mono&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;&quot;&gt;inside lib1_func1() function scope&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF8000;dashed=1;dashPattern=1 1;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="360" y="705" width="150" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-33" value="&lt;font color=&quot;#6c8ebf&quot; size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;library1.c source file scope&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;dashed=1;dashPattern=1 1;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="375" y="570" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-36" value="&lt;font color=&quot;#ad0b0b&quot; size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;main() function scope&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#AD0B0B;dashed=1;dashPattern=1 1;strokeWidth=3;perimeterSpacing=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="190" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-7" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="770" y="559" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-8" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;#include&lt;/font&gt; &lt;/b&gt;&quot;library2.h&quot;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;/*Declaration variable*/&lt;/font&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#e00606&quot;&gt;uint8_t &lt;/font&gt;&lt;/b&gt;lib2_var2;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#00cc00&quot;&gt;/*Definition lib2_func2*/&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#e10e0e&quot; style=&quot;border-color: var(--border-color);&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lib2_func2(&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;color: rgb(225, 14, 14);&quot;&gt;int &lt;/b&gt;a&lt;/font&gt;&lt;/span&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;{&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#00cc00&quot;&gt;/*body of lib2_func2*/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; ...&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;}&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" parent="ht2UmhOGXqKOYj0co9Qx-7" vertex="1">
+          <mxGeometry y="31.36" width="200" height="198.64" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-9" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;library2.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ht2UmhOGXqKOYj0co9Qx-7" vertex="1">
+          <mxGeometry x="66.66666666666667" width="66.66666666666667" height="31.363636363636363" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-32" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;dashed=1;dashPattern=1 1;perimeterSpacing=0;fillColor=none;strokeColor=#FF8000;" parent="ht2UmhOGXqKOYj0co9Qx-7" vertex="1">
+          <mxGeometry x="-10" y="120" width="210" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-34" value="&lt;font color=&quot;#6c8ebf&quot; size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;library2.c source file scope&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;dashed=1;dashPattern=1 1;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="940" y="559" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ht2UmhOGXqKOYj0co9Qx-31" value="&lt;font color=&quot;#ff8000&quot; face=&quot;Antikor Mono&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;&quot;&gt;inside lib2_func2() function scope&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF8000;dashed=1;dashPattern=1 1;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="630" y="712" width="140" height="67" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="c_1AZp92dR4vn6f-53gR" name="source_.c">
+    <mxGraphModel dx="1731" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0oFq1kaJ7KK3UIGye-HR-1" value="" style="group;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;strokeWidth=3;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="485" y="133" width="210" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="0oFq1kaJ7KK3UIGye-HR-2" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;int&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lib1_func1(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;/b&gt;);&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lib2_func2(&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color); color: rgb(225, 14, 14);&quot;&gt;int&amp;nbsp;&lt;/b&gt;a&lt;/span&gt;);&lt;b&gt;&lt;font color=&quot;#e10e0e&quot;&gt;&lt;br&gt;&lt;br&gt;int&lt;/font&gt;&amp;nbsp;&lt;/b&gt;main()&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; lib1_func1();&lt;br&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#e00606&quot;&gt;&lt;b&gt;int&lt;/b&gt;&lt;/font&gt;&amp;nbsp;var;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; lib2_func2(&lt;/span&gt;var&lt;span style=&quot;&quot;&gt;);&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;}&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" parent="0oFq1kaJ7KK3UIGye-HR-1" vertex="1">
+          <mxGeometry y="32.72727272727273" width="210" height="207.27272727272725" as="geometry" />
+        </mxCell>
+        <mxCell id="0oFq1kaJ7KK3UIGye-HR-3" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;main.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="0oFq1kaJ7KK3UIGye-HR-1" vertex="1">
+          <mxGeometry x="70.00000000000001" width="70.00000000000001" height="32.72727272727273" as="geometry" />
+        </mxCell>
+        <mxCell id="CPbzEApIW4qnXP_s1Evx-1" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="325" y="453" width="210" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="CPbzEApIW4qnXP_s1Evx-2" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;/*Definition lib1_func1*/&lt;/font&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#e10e0e&quot;&gt;int&lt;/font&gt;&lt;font color=&quot;#e00606&quot;&gt; &lt;/font&gt;&lt;/b&gt;lib1_func1(&lt;b&gt;&lt;font color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;/b&gt;)&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#00cc00&quot;&gt;/*body of lib1_func1*/&lt;br&gt;&amp;nbsp; &amp;nbsp; ...&lt;/font&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#e10e0e&quot;&gt;return &lt;/font&gt;&lt;/b&gt;0;&lt;br&gt;}&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" parent="CPbzEApIW4qnXP_s1Evx-1" vertex="1">
+          <mxGeometry y="32.72347826086956" width="210" height="207.2765217391304" as="geometry" />
+        </mxCell>
+        <mxCell id="CPbzEApIW4qnXP_s1Evx-3" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;lib1.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="CPbzEApIW4qnXP_s1Evx-1" vertex="1">
+          <mxGeometry x="66.66666666666667" width="66.66666666666667" height="32.72727272727273" as="geometry" />
+        </mxCell>
+        <mxCell id="-x_3lvJ_NoCu4ZcxtRCB-1" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="645" y="453" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="-x_3lvJ_NoCu4ZcxtRCB-2" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#00cc00&quot;&gt;/*Definition lib2_func2*/&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#e10e0e&quot; style=&quot;border-color: var(--border-color);&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lib2_func2(&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;color: rgb(225, 14, 14);&quot;&gt;int &lt;/b&gt;a&lt;/font&gt;&lt;/span&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;{&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#00cc00&quot;&gt;/*body of lib2_func2*/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; ...&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;}&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" parent="-x_3lvJ_NoCu4ZcxtRCB-1" vertex="1">
+          <mxGeometry y="32.72347826086956" width="200" height="207.2765217391304" as="geometry" />
+        </mxCell>
+        <mxCell id="-x_3lvJ_NoCu4ZcxtRCB-3" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;lib2.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-x_3lvJ_NoCu4ZcxtRCB-1" vertex="1">
+          <mxGeometry x="66.66666666666667" width="66.66666666666667" height="32.72727272727273" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2m3leK8XKIlKBclekVHn" name="Page-4">
+    <mxGraphModel dx="1212" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sRHIiQv9ho_OCfmSoMLT-1" value="" style="group;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="475" y="90" width="220" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="sRHIiQv9ho_OCfmSoMLT-2" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;int&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lib1_func1(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;/b&gt;);&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lib2_func2(&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color); color: rgb(225, 14, 14);&quot;&gt;int&amp;nbsp;&lt;/b&gt;a&lt;/span&gt;);&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#e10e0e&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lcd_action(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;void&lt;/b&gt;&lt;/font&gt;);&lt;b&gt;&lt;font color=&quot;#e10e0e&quot;&gt;&lt;br&gt;&lt;br&gt;int&lt;/font&gt;&amp;nbsp;&lt;/b&gt;main()&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;i2c_transmit(0x47);&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#ad0b0b&quot;&gt;int &lt;/font&gt;&lt;/b&gt;buf =&amp;nbsp;i2c_receive();&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; lcd_action();&lt;br&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br&gt;}&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" parent="sRHIiQv9ho_OCfmSoMLT-1" vertex="1">
+          <mxGeometry y="38.185" width="220" height="241.81500000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="sRHIiQv9ho_OCfmSoMLT-3" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;main.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sRHIiQv9ho_OCfmSoMLT-1" vertex="1">
+          <mxGeometry x="57.03703703703704" width="57.03703703703704" height="38.18181818181819" as="geometry" />
+        </mxCell>
+        <mxCell id="sRHIiQv9ho_OCfmSoMLT-4" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="345" y="410" width="220" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="sRHIiQv9ho_OCfmSoMLT-5" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#00cc00&quot;&gt;&lt;br&gt;/*Definition i2c_transmit*/&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font color=&quot;#e00606&quot;&gt; &lt;/font&gt;&lt;/b&gt;i2c_transmit(&lt;b style=&quot;color: rgb(225, 14, 14);&quot;&gt;int &lt;/b&gt;data)&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;font style=&quot;&quot; color=&quot;#00cc00&quot;&gt;/*body of i2c_transmit*/&lt;br&gt;&amp;nbsp; &amp;nbsp; ...&lt;/font&gt;&lt;br&gt;}&lt;br&gt;&lt;br&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#00cc00&quot;&gt;/*Definition i2c_receive*/&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#e10e0e&quot; style=&quot;border-color: var(--border-color);&quot;&gt;int&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;i2c_receive()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;{&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#00cc00&quot;&gt;/*body of i2c_receive*/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; ...&lt;br&gt;&lt;/font&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;return&lt;/font&gt; &lt;/b&gt;data;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;}&amp;nbsp;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" parent="sRHIiQv9ho_OCfmSoMLT-4" vertex="1">
+          <mxGeometry y="30.609032258064513" width="220" height="259.39096774193547" as="geometry" />
+        </mxCell>
+        <mxCell id="sRHIiQv9ho_OCfmSoMLT-6" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;i2c.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sRHIiQv9ho_OCfmSoMLT-4" vertex="1">
+          <mxGeometry x="66.66666666666667" width="66.66666666666667" height="30.615835777126097" as="geometry" />
+        </mxCell>
+        <mxCell id="sRHIiQv9ho_OCfmSoMLT-7" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="605" y="410" width="220" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="sRHIiQv9ho_OCfmSoMLT-8" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;i2c_transmit(&lt;b style=&quot;border-color: var(--border-color); color: rgb(225, 14, 14);&quot;&gt;int&amp;nbsp;&lt;/b&gt;data);&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;int&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;i2c_receive();&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#00cc00&quot;&gt;&lt;br&gt;&lt;br&gt;/*Definition lcd_init*/&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#e10e0e&quot; style=&quot;border-color: var(--border-color);&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lcd_action(&lt;font color=&quot;#e10e0e&quot;&gt;&lt;b&gt;void&lt;/b&gt;&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;{&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#00cc00&quot;&gt;/*body of lib2_func2*/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; ...&lt;br&gt;&lt;/font&gt;&amp;nbsp; &amp;nbsp; i2c_transmit(0x08);&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#e00606&quot;&gt;int &lt;/font&gt;&lt;/b&gt;data = i2c_receive();&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#00cc00&quot;&gt;...&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;}&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" parent="sRHIiQv9ho_OCfmSoMLT-7" vertex="1">
+          <mxGeometry y="39.540869565217385" width="220" height="250.45913043478257" as="geometry" />
+        </mxCell>
+        <mxCell id="sRHIiQv9ho_OCfmSoMLT-9" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;lcd.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sRHIiQv9ho_OCfmSoMLT-7" vertex="1">
+          <mxGeometry x="73.33333333333334" width="73.33333333333334" height="39.54545454545454" as="geometry" />
+        </mxCell>
+        <mxCell id="9LE0jrXML2DF14mdnV33-20" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.991;entryY=0.213;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="9LE0jrXML2DF14mdnV33-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="410" as="sourcePoint" />
+            <mxPoint x="968.02" y="93.67523875000006" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1160" y="280" />
+              <mxPoint x="1110" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_rqK1hZfXbgpIx6txhjl" name="Page-5">
+    <mxGraphModel dx="1010" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" parent="1" source="r2F0pQ_QukAW5OnUN3wO-3" target="r2F0pQ_QukAW5OnUN3wO-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-2" value="&lt;font face=&quot;Antikor Mono&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#9673a6&quot;&gt;preprocess&lt;/font&gt;&lt;/b&gt;&lt;br&gt;compile&lt;br&gt;assemble&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="r2F0pQ_QukAW5OnUN3wO-1" vertex="1" connectable="0">
+          <mxGeometry x="-0.2331" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="110" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-3" value="&lt;font size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;main.c&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=3;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="545" y="40" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" parent="1" source="r2F0pQ_QukAW5OnUN3wO-6" target="r2F0pQ_QukAW5OnUN3wO-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-5" value="&lt;font face=&quot;Antikor Mono&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#9673a6&quot;&gt;preprocess&lt;/font&gt;&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;compile&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;assemble&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="r2F0pQ_QukAW5OnUN3wO-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.275" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-6" value="&lt;font size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;i2c.c&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="425" y="200" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-7" value="&lt;font size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;lcd.c&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="665" y="200" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-8" value="&lt;font size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;lib1.o&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="425" y="400" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" parent="1" source="r2F0pQ_QukAW5OnUN3wO-11" target="r2F0pQ_QukAW5OnUN3wO-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-10" value="&lt;font face=&quot;Antikor Mono&quot; style=&quot;font-size: 14px;&quot;&gt;Linking process&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" parent="r2F0pQ_QukAW5OnUN3wO-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.0742" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-11" value="&lt;font size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;main.o&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="545" y="400" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-12" value="&lt;font size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;lib2.o&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="665" y="400" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" parent="1" source="r2F0pQ_QukAW5OnUN3wO-7" target="r2F0pQ_QukAW5OnUN3wO-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-14" value="&lt;font face=&quot;Antikor Mono&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#9673a6&quot;&gt;preprocess&lt;/font&gt;&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;compile&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;assemble&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="r2F0pQ_QukAW5OnUN3wO-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.2137" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=3;" parent="1" source="r2F0pQ_QukAW5OnUN3wO-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="575" y="600" as="sourcePoint" />
+            <mxPoint x="565" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=3;" parent="1" source="r2F0pQ_QukAW5OnUN3wO-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="615" y="570" as="sourcePoint" />
+            <mxPoint x="605" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-17" value="&lt;font size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;main.exe&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="525" y="650" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-18" value="&lt;font size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;i2c.h&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="425" y="40" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="r2F0pQ_QukAW5OnUN3wO-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-20" value="&lt;font size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;lcd.h&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="670" y="40" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.438;entryY=1.034;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="r2F0pQ_QukAW5OnUN3wO-7" target="r2F0pQ_QukAW5OnUN3wO-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" parent="1" source="r2F0pQ_QukAW5OnUN3wO-18" target="r2F0pQ_QukAW5OnUN3wO-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" parent="1" source="r2F0pQ_QukAW5OnUN3wO-6" target="r2F0pQ_QukAW5OnUN3wO-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2F0pQ_QukAW5OnUN3wO-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=80;entryDy=65;entryPerimeter=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" parent="1" source="r2F0pQ_QukAW5OnUN3wO-18" target="r2F0pQ_QukAW5OnUN3wO-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="465" y="10" />
+              <mxPoint x="800" y="10" />
+              <mxPoint x="800" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nXYluAh643W9YITN1C3q" name="Page-6">
+    <mxGraphModel dx="1212" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5g0_AxIU4DWQNtudcyz3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="5g0_AxIU4DWQNtudcyz3-3" target="5g0_AxIU4DWQNtudcyz3-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5g0_AxIU4DWQNtudcyz3-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;preprocess&lt;br&gt;compile&lt;br&gt;assemble&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5g0_AxIU4DWQNtudcyz3-1">
+          <mxGeometry x="-0.2331" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="110" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5g0_AxIU4DWQNtudcyz3-3" value="&lt;font size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;main.c&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=3;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="545" y="10" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5g0_AxIU4DWQNtudcyz3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="5g0_AxIU4DWQNtudcyz3-6" target="5g0_AxIU4DWQNtudcyz3-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5g0_AxIU4DWQNtudcyz3-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;preprocess&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;compile&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;assemble&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5g0_AxIU4DWQNtudcyz3-4">
+          <mxGeometry x="-0.275" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5g0_AxIU4DWQNtudcyz3-6" value="&lt;font size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;lib1.c&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="425" y="170" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5g0_AxIU4DWQNtudcyz3-7" value="&lt;font size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;lib2.c&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="665" y="170" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5g0_AxIU4DWQNtudcyz3-8" value="&lt;font size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;lib1.o&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="425" y="370" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5g0_AxIU4DWQNtudcyz3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="5g0_AxIU4DWQNtudcyz3-11" target="5g0_AxIU4DWQNtudcyz3-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5g0_AxIU4DWQNtudcyz3-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Linking process&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5g0_AxIU4DWQNtudcyz3-9">
+          <mxGeometry x="-0.0742" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5g0_AxIU4DWQNtudcyz3-11" value="&lt;font size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;main.o&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="545" y="370" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5g0_AxIU4DWQNtudcyz3-12" value="&lt;font size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;lib2.o&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="665" y="370" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5g0_AxIU4DWQNtudcyz3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="5g0_AxIU4DWQNtudcyz3-7" target="5g0_AxIU4DWQNtudcyz3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5g0_AxIU4DWQNtudcyz3-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;preprocess&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;compile&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;assemble&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5g0_AxIU4DWQNtudcyz3-13">
+          <mxGeometry x="-0.2137" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5g0_AxIU4DWQNtudcyz3-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="5g0_AxIU4DWQNtudcyz3-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="575" y="570" as="sourcePoint" />
+            <mxPoint x="565" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5g0_AxIU4DWQNtudcyz3-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="5g0_AxIU4DWQNtudcyz3-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="615" y="540" as="sourcePoint" />
+            <mxPoint x="605" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5g0_AxIU4DWQNtudcyz3-17" value="&lt;font size=&quot;1&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;main.exe&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="525" y="620" width="120" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="oskHvFCD7G5A6Zb_6BCR" name="Page-7">
+    <mxGraphModel dx="1212" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="96QtmDffCZDxOS2hwNJ4-1" value="" style="group;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="600" y="300" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="96QtmDffCZDxOS2hwNJ4-2" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;#ifndef&lt;/font&gt;&lt;/b&gt;&amp;nbsp;I2C_H&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;&lt;b&gt;#define&lt;/b&gt;&lt;/font&gt;&amp;nbsp;I2C_H&lt;br&gt;&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#00cc00&quot;&gt;/*Declaration function*/&lt;br&gt;&lt;/font&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;i2c_transmit(&lt;b style=&quot;border-color: var(--border-color); color: rgb(225, 14, 14);&quot;&gt;int&amp;nbsp;&lt;/b&gt;data);&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;int&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;i2c_receive();&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;#endif&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" parent="96QtmDffCZDxOS2hwNJ4-1" vertex="1">
+          <mxGeometry y="27.27" width="219.99999999999997" height="172.73" as="geometry" />
+        </mxCell>
+        <mxCell id="96QtmDffCZDxOS2hwNJ4-3" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;i2c.h&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="96QtmDffCZDxOS2hwNJ4-1" vertex="1">
+          <mxGeometry x="66.66666666666667" width="66.66666666666667" height="27.272727272727273" as="geometry" />
+        </mxCell>
+        <mxCell id="96QtmDffCZDxOS2hwNJ4-4" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="600" y="530" width="220" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="96QtmDffCZDxOS2hwNJ4-5" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#00cc00&quot;&gt;&lt;br&gt;/*Definition i2c_transmit*/&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font color=&quot;#e00606&quot;&gt; &lt;/font&gt;&lt;/b&gt;i2c_transmit(&lt;b style=&quot;color: rgb(225, 14, 14);&quot;&gt;int &lt;/b&gt;data)&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;font style=&quot;&quot; color=&quot;#00cc00&quot;&gt;/*body of i2c_transmit*/&lt;br&gt;&amp;nbsp; &amp;nbsp; ...&lt;/font&gt;&lt;br&gt;}&lt;br&gt;&lt;br&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#00cc00&quot;&gt;/*Definition i2c_receive*/&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#e10e0e&quot; style=&quot;border-color: var(--border-color);&quot;&gt;int&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;i2c_receive()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;{&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#00cc00&quot;&gt;/*body of i2c_receive*/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; ...&lt;br&gt;&lt;/font&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;return&lt;/font&gt; &lt;/b&gt;data;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;}&amp;nbsp;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" parent="96QtmDffCZDxOS2hwNJ4-4" vertex="1">
+          <mxGeometry y="30.609032258064513" width="220" height="259.39096774193547" as="geometry" />
+        </mxCell>
+        <mxCell id="96QtmDffCZDxOS2hwNJ4-6" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;i2c.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="96QtmDffCZDxOS2hwNJ4-4" vertex="1">
+          <mxGeometry x="66.66666666666667" width="66.66666666666667" height="30.615835777126097" as="geometry" />
+        </mxCell>
+        <mxCell id="96QtmDffCZDxOS2hwNJ4-7" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="900" y="530" width="220" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="96QtmDffCZDxOS2hwNJ4-8" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#e10e0e&quot;&gt;#include &lt;/font&gt;&quot;i2c.h&quot;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;/*Definition lcd_init*/&lt;/font&gt;&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#e10e0e&quot; style=&quot;border-color: var(--border-color);&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lcd_action(&lt;font style=&quot;&quot; color=&quot;#e10e0e&quot;&gt;&lt;b&gt;void&lt;/b&gt;&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;{&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#00cc00&quot;&gt;/*body of lib2_func2*/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; ...&lt;br&gt;&lt;/font&gt;&amp;nbsp; &amp;nbsp; i2c_transmit(0x08);&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#e00606&quot;&gt;int &lt;/font&gt;&lt;/b&gt;data = i2c_receive();&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;font style=&quot;&quot; color=&quot;#00cc00&quot;&gt;...&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;}&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" parent="96QtmDffCZDxOS2hwNJ4-7" vertex="1">
+          <mxGeometry y="39.540869565217385" width="220" height="250.45913043478257" as="geometry" />
+        </mxCell>
+        <mxCell id="96QtmDffCZDxOS2hwNJ4-9" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;lcd.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="96QtmDffCZDxOS2hwNJ4-7" vertex="1">
+          <mxGeometry x="73.33333333333334" width="73.33333333333334" height="39.54545454545454" as="geometry" />
+        </mxCell>
+        <mxCell id="96QtmDffCZDxOS2hwNJ4-10" value="" style="group;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="750" y="20" width="220" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="96QtmDffCZDxOS2hwNJ4-11" value="&lt;b style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;#include&amp;nbsp;&lt;/font&gt;&quot;i2c.h&quot;&lt;/b&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#e10e0e&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;#include&amp;nbsp;&lt;/font&gt;&quot;lcd.h&quot;&lt;/b&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;&lt;font color=&quot;#e10e0e&quot;&gt;&lt;br&gt;&lt;br&gt;int&lt;/font&gt;&amp;nbsp;&lt;/b&gt;main()&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;i2c_transmit(0x47);&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#ad0b0b&quot;&gt;int &lt;/font&gt;&lt;/b&gt;buf =&amp;nbsp;i2c_receive();&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; lcd_action();&lt;br&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br&gt;}&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" parent="96QtmDffCZDxOS2hwNJ4-10" vertex="1">
+          <mxGeometry y="31.366249999999997" width="220" height="198.63375000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="96QtmDffCZDxOS2hwNJ4-12" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;main.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="96QtmDffCZDxOS2hwNJ4-10" vertex="1">
+          <mxGeometry x="79.99703703703705" width="57.03703703703704" height="31.363636363636363" as="geometry" />
+        </mxCell>
+        <mxCell id="96QtmDffCZDxOS2hwNJ4-13" value="" style="group;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="900" y="300" width="215" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="96QtmDffCZDxOS2hwNJ4-14" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;#ifndef&lt;/font&gt;&lt;/b&gt;&amp;nbsp;LCD_H&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;&lt;b&gt;#define&lt;/b&gt;&lt;/font&gt;&amp;nbsp;LCD_H&lt;br&gt;&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#00cc00&quot;&gt;/*Declaration function*/&lt;br&gt;&lt;/font&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lcd_action(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;void&lt;/b&gt;&lt;/font&gt;);&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;#endif&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" parent="96QtmDffCZDxOS2hwNJ4-13" vertex="1">
+          <mxGeometry y="27.27" width="214.99999999999997" height="172.72999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="96QtmDffCZDxOS2hwNJ4-15" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;lcd.h&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="96QtmDffCZDxOS2hwNJ4-13" vertex="1">
+          <mxGeometry x="65.15151515151516" width="65.15151515151516" height="27.272727272727277" as="geometry" />
+        </mxCell>
+        <mxCell id="96QtmDffCZDxOS2hwNJ4-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.004;entryY=0.14;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" target="96QtmDffCZDxOS2hwNJ4-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="450" as="sourcePoint" />
+            <mxPoint x="892.2605738146551" y="582.4520979256465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96QtmDffCZDxOS2hwNJ4-17" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.002;exitY=0.576;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.011;entryY=0.107;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="96QtmDffCZDxOS2hwNJ4-2" target="96QtmDffCZDxOS2hwNJ4-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="430" as="sourcePoint" />
+            <mxPoint x="740" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="380" />
+              <mxPoint x="580" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EyzS9fhucx0ofGbBWxyV" name="Page-8">
+    <mxGraphModel dx="1212" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cccv1JNbHHU-4k2R8vDN-1" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="490" y="480" width="240" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="cccv1JNbHHU-4k2R8vDN-2" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot; color=&quot;#3399ff&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;#include&lt;/b&gt;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&amp;nbsp;&quot;lib.h&quot;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;&lt;br&gt;&lt;br&gt;/*Declaration global variable*/&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#e00606&quot;&gt;int &lt;/font&gt;&lt;/b&gt;lib_var;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;/*Definition lib_func1*/&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font color=&quot;#e00606&quot;&gt; &lt;/font&gt;&lt;/b&gt;lib_func1()&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;font style=&quot;&quot; color=&quot;#00cc00&quot;&gt;/*body of i2c_transmit*/&lt;br&gt;&amp;nbsp; &amp;nbsp; ...&lt;/font&gt;&lt;br&gt;}&lt;br&gt;&lt;br&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#00cc00&quot;&gt;/*Definition lib_func2*/&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#e10e0e&quot; style=&quot;border-color: var(--border-color);&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lib_func2()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;{&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#00cc00&quot;&gt;/*body of i2c_receive*/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; ...&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;}&amp;nbsp;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" vertex="1" parent="cccv1JNbHHU-4k2R8vDN-1">
+          <mxGeometry y="39.37939393939394" width="240" height="280.62060606060606" as="geometry" />
+        </mxCell>
+        <mxCell id="cccv1JNbHHU-4k2R8vDN-3" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;lib.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cccv1JNbHHU-4k2R8vDN-1">
+          <mxGeometry x="84.99666666666667" y="5.997272727272728" width="66.66666666666667" height="29.688083177819248" as="geometry" />
+        </mxCell>
+        <mxCell id="RLP0LI-cq3ZoMixQjCnW-1" value="" style="group;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="480" width="240" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="RLP0LI-cq3ZoMixQjCnW-2" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;#ifndef&lt;/font&gt;&lt;/b&gt;&amp;nbsp;LIB_H&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;&lt;b&gt;#define&lt;/b&gt;&lt;/font&gt;&amp;nbsp;LIB_H&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot; color=&quot;#00cc00&quot;&gt;/*Include other header file*/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;&lt;b style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#3399ff&quot;&gt;#include&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;font face=&quot;Antikor Mono&quot;&gt;&amp;lt;stdio.h&amp;gt;&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot; color=&quot;#3399ff&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;#include&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Antikor Mono&amp;quot;;&quot;&gt;&amp;nbsp;&quot;other_lib.h&quot;&lt;/span&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#00cc00&quot;&gt;/*Declaration function*/&lt;br&gt;&lt;/font&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lib_func1();&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#e10e0e&quot; style=&quot;border-color: var(--border-color);&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#e00606&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;lib_func2();&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot; color=&quot;#00cc00&quot;&gt;/*Extern global variable*/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#b266ff&quot; style=&quot;font-weight: bold; font-family: &amp;quot;Antikor Mono&amp;quot;; border-color: var(--border-color);&quot;&gt;extern&lt;/font&gt;&lt;font style=&quot;font-weight: bold; font-family: &amp;quot;Antikor Mono&amp;quot;; border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt; int&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;color: rgb(224, 6, 6); font-weight: bold;&quot; face=&quot;Antikor Mono&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;lib_var&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Antikor Mono&amp;quot;;&quot;&gt;;&lt;/span&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;#endif&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" vertex="1" parent="RLP0LI-cq3ZoMixQjCnW-1">
+          <mxGeometry y="40" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="RLP0LI-cq3ZoMixQjCnW-3" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;lib.h&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RLP0LI-cq3ZoMixQjCnW-1">
+          <mxGeometry x="78.99727272727273" y="-1" width="72.72727272727273" height="43.63636363636363" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7rkU3R1QaMzIAg_e8SwT" name="extern_variable">
+    <mxGraphModel dx="1426" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WxgT9-6tUwVFIbSVPqaI-1" value="" style="group;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=3;fontColor=#ffffff;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="520" y="440" width="260" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="WxgT9-6tUwVFIbSVPqaI-2" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot; color=&quot;#3399ff&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;#include&lt;/b&gt;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&amp;nbsp;&amp;lt;stdio.h&amp;gt;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot; color=&quot;#3399ff&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;#include&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Antikor Mono&quot;&gt;&amp;nbsp;&quot;lib.h&quot;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;&lt;br&gt;&lt;br&gt;/*Extern global variable*/&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#b266ff&quot;&gt;extern&lt;/font&gt;&lt;font color=&quot;#e00606&quot;&gt; int &lt;/font&gt;&lt;/b&gt;lib_var;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-weight: bold;&quot; color=&quot;#e10e0e&quot;&gt;int&lt;/font&gt;&lt;b style=&quot;color: rgb(224, 6, 6);&quot;&gt;&amp;nbsp;&lt;/b&gt;main()&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; lib_var = 10;&lt;br&gt;&lt;font color=&quot;#00cc00&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;printf(&quot;Value: %d\n&quot;,lib_var);&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/font&gt; update_var();&lt;br&gt;&lt;br&gt;}&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" vertex="1" parent="WxgT9-6tUwVFIbSVPqaI-1">
+          <mxGeometry y="39.37939393939394" width="260.00000000000006" height="280.62060606060606" as="geometry" />
+        </mxCell>
+        <mxCell id="WxgT9-6tUwVFIbSVPqaI-3" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;main.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WxgT9-6tUwVFIbSVPqaI-1">
+          <mxGeometry x="92.07972222222224" y="5.997272727272728" width="72.22222222222224" height="29.688083177819248" as="geometry" />
+        </mxCell>
+        <mxCell id="WxgT9-6tUwVFIbSVPqaI-7" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="440" width="250" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="WxgT9-6tUwVFIbSVPqaI-8" value="&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot; color=&quot;#3399ff&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;#include&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Antikor Mono&quot;&gt;&amp;nbsp;&quot;lib.h&quot;&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;&lt;br&gt;/*Declaration global variable*/&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#e00606&quot;&gt;int &lt;/font&gt;&lt;/b&gt;lib_var;&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font color=&quot;#e00606&quot;&gt; &lt;/font&gt;&lt;/b&gt;update_var()&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; lib_var = 100;&lt;br&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Update: %d&quot;,lib_var);&lt;br&gt;}&amp;nbsp;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" vertex="1" parent="WxgT9-6tUwVFIbSVPqaI-7">
+          <mxGeometry y="39.37939393939394" width="250" height="280.62060606060606" as="geometry" />
+        </mxCell>
+        <mxCell id="WxgT9-6tUwVFIbSVPqaI-9" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;lib.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WxgT9-6tUwVFIbSVPqaI-7">
+          <mxGeometry x="88.53819444444447" y="5.997272727272728" width="69.44444444444446" height="29.688083177819248" as="geometry" />
+        </mxCell>
+        <mxCell id="UdA1W0DJdARJUovJwSbG-1" value="" style="group;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="80" width="240" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="UdA1W0DJdARJUovJwSbG-2" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;#ifndef&lt;/font&gt;&lt;/b&gt;&amp;nbsp;LIB_H&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;&lt;b&gt;#define&lt;/b&gt;&lt;/font&gt;&amp;nbsp;LIB_H&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot; color=&quot;#00cc00&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;&lt;b style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#3399ff&quot;&gt;#include&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;font face=&quot;Antikor Mono&quot;&gt;&amp;lt;stdio.h&amp;gt;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#00cc00&quot;&gt;/*Declaration function*/&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-weight: bold; border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;color: rgb(224, 6, 6);&quot;&gt;&amp;nbsp;&lt;/b&gt;update_var&lt;/font&gt;&lt;/span&gt;();&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;#endif&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" vertex="1" parent="UdA1W0DJdARJUovJwSbG-1">
+          <mxGeometry y="40" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="UdA1W0DJdARJUovJwSbG-3" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;lib.h&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="UdA1W0DJdARJUovJwSbG-1">
+          <mxGeometry x="78.99727272727273" y="-1" width="72.72727272727273" height="43.63636363636363" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="static_variable" id="S-OCWyOAEVfT4-W1D-qC">
+    <mxGraphModel dx="2424" dy="1332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="LggknHxvMPt7qeK4_X1v-0" />
+        <mxCell id="LggknHxvMPt7qeK4_X1v-1" parent="LggknHxvMPt7qeK4_X1v-0" />
+        <mxCell id="LggknHxvMPt7qeK4_X1v-2" value="" style="group;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=3;fontColor=#ffffff;" vertex="1" connectable="0" parent="LggknHxvMPt7qeK4_X1v-1">
+          <mxGeometry x="480" y="440" width="240" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="LggknHxvMPt7qeK4_X1v-3" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot; color=&quot;#3399ff&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;#include&lt;/b&gt;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&amp;nbsp;&amp;lt;stdio.h&amp;gt;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot; color=&quot;#3399ff&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;#include&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Antikor Mono&quot;&gt;&amp;nbsp;&quot;file1.h&quot;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;&lt;br&gt;&lt;br&gt;/*main.c file scope*/&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#b266ff&quot;&gt;static&lt;/font&gt;&lt;font color=&quot;#e00606&quot;&gt;&amp;nbsp;int &lt;/font&gt;&lt;/b&gt;var;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-weight: bold;&quot; color=&quot;#e10e0e&quot;&gt;int&lt;/font&gt;&lt;b style=&quot;color: rgb(224, 6, 6);&quot;&gt;&amp;nbsp;&lt;/b&gt;main()&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; var = 10;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/font&gt; file1_print();&lt;br&gt;&amp;nbsp; &amp;nbsp; printf(&quot;main: %d\n&quot;,var);&lt;br&gt;}&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" vertex="1" parent="LggknHxvMPt7qeK4_X1v-2">
+          <mxGeometry y="39.37939393939394" width="240.00000000000003" height="280.62060606060606" as="geometry" />
+        </mxCell>
+        <mxCell id="LggknHxvMPt7qeK4_X1v-4" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;main.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LggknHxvMPt7qeK4_X1v-2">
+          <mxGeometry x="84.99666666666668" y="5.997272727272728" width="66.66666666666669" height="29.688083177819248" as="geometry" />
+        </mxCell>
+        <mxCell id="LggknHxvMPt7qeK4_X1v-5" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" vertex="1" connectable="0" parent="LggknHxvMPt7qeK4_X1v-1">
+          <mxGeometry x="200" y="440" width="240" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="LggknHxvMPt7qeK4_X1v-6" value="&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot; color=&quot;#3399ff&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;#include&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Antikor Mono&quot;&gt;&amp;nbsp;&quot;file1.h&quot;&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;&lt;br&gt;/*file1.c file scope*/&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#b266ff&quot;&gt;static &lt;/font&gt;&lt;font color=&quot;#e00606&quot;&gt;int &lt;/font&gt;&lt;/b&gt;var;&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font color=&quot;#e00606&quot;&gt; &lt;/font&gt;&lt;/b&gt;file1_print()&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; var = 1000;&lt;br&gt;&amp;nbsp; &amp;nbsp; printf(&quot;file1: %d\n&quot;,var);&lt;br&gt;}&amp;nbsp;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" vertex="1" parent="LggknHxvMPt7qeK4_X1v-5">
+          <mxGeometry y="39.37939393939394" width="240" height="280.62060606060606" as="geometry" />
+        </mxCell>
+        <mxCell id="LggknHxvMPt7qeK4_X1v-7" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;file1.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LggknHxvMPt7qeK4_X1v-5">
+          <mxGeometry x="84.99666666666668" y="5.997272727272728" width="66.66666666666669" height="29.688083177819248" as="geometry" />
+        </mxCell>
+        <mxCell id="LggknHxvMPt7qeK4_X1v-8" value="" style="group;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" vertex="1" connectable="0" parent="LggknHxvMPt7qeK4_X1v-1">
+          <mxGeometry x="200" y="190" width="240" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="LggknHxvMPt7qeK4_X1v-9" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;#ifndef&lt;/font&gt;&lt;/b&gt;&amp;nbsp;FILE1_H&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;&lt;b&gt;#define&lt;/b&gt;&lt;/font&gt;&amp;nbsp;FILE1_H&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot; color=&quot;#00cc00&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;&lt;b style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#3399ff&quot;&gt;#include&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;font face=&quot;Antikor Mono&quot;&gt;&amp;lt;stdio.h&amp;gt;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#00cc00&quot;&gt;/*Declaration function*/&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-weight: bold; border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;color: rgb(224, 6, 6);&quot;&gt;&amp;nbsp;&lt;/b&gt;file1_print&lt;/font&gt;&lt;/span&gt;();&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;#endif&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" vertex="1" parent="LggknHxvMPt7qeK4_X1v-8">
+          <mxGeometry y="28.75" width="240" height="201.25" as="geometry" />
+        </mxCell>
+        <mxCell id="LggknHxvMPt7qeK4_X1v-10" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;lib.h&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LggknHxvMPt7qeK4_X1v-8">
+          <mxGeometry x="78.99727272727273" y="-0.71875" width="72.72727272727273" height="31.36363636363636" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of static_variable" id="aJ9IlB13Rpk_JG9uBV0D">
+    <mxGraphModel dx="693" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="nF__R8jt9Qr6Ph4q2LOF-0" />
+        <mxCell id="nF__R8jt9Qr6Ph4q2LOF-1" parent="nF__R8jt9Qr6Ph4q2LOF-0" />
+        <mxCell id="nF__R8jt9Qr6Ph4q2LOF-2" value="" style="group;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=3;fontColor=#ffffff;" vertex="1" connectable="0" parent="nF__R8jt9Qr6Ph4q2LOF-1">
+          <mxGeometry x="480" y="440" width="260" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nF__R8jt9Qr6Ph4q2LOF-3" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot; color=&quot;#3399ff&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;#include&lt;/b&gt;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&amp;nbsp;&amp;lt;stdio.h&amp;gt;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot; color=&quot;#3399ff&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;#include&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Antikor Mono&quot;&gt;&amp;nbsp;&quot;file2.h&quot;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-weight: bold;&quot; color=&quot;#e10e0e&quot;&gt;int&lt;/font&gt;&lt;b style=&quot;color: rgb(224, 6, 6);&quot;&gt;&amp;nbsp;&lt;/b&gt;main()&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;file2_update();&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot;&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#00cc00&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/font&gt;&amp;nbsp;file2_update();&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;file2_update();&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;}&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" vertex="1" parent="nF__R8jt9Qr6Ph4q2LOF-2">
+          <mxGeometry y="39.37939393939394" width="260" height="280.62060606060606" as="geometry" />
+        </mxCell>
+        <mxCell id="nF__R8jt9Qr6Ph4q2LOF-4" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;main.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nF__R8jt9Qr6Ph4q2LOF-2">
+          <mxGeometry x="92.07972222222223" y="5.997272727272728" width="72.22222222222224" height="29.688083177819248" as="geometry" />
+        </mxCell>
+        <mxCell id="nF__R8jt9Qr6Ph4q2LOF-5" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" vertex="1" connectable="0" parent="nF__R8jt9Qr6Ph4q2LOF-1">
+          <mxGeometry x="200" y="440" width="260" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nF__R8jt9Qr6Ph4q2LOF-6" value="&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot; color=&quot;#3399ff&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;#include&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Antikor Mono&quot;&gt;&amp;nbsp;&quot;file1.h&quot;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font color=&quot;#e00606&quot;&gt; &lt;/font&gt;&lt;/b&gt;file2_update()&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#00cc00&quot; face=&quot;Antikor Mono&quot;&gt;/*file2_update function scope*/&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot;&gt;&lt;font style=&quot;font-weight: bold; border-color: var(--border-color);&quot; color=&quot;#b266ff&quot;&gt;static&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;color: rgb(224, 6, 6);&quot;&gt;&amp;nbsp;int &lt;/b&gt;count = 0;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&amp;nbsp; &amp;nbsp; count++;&lt;br&gt;&amp;nbsp; &amp;nbsp; printf(&quot;file2: %d\n&quot;,count);&lt;br&gt;}&amp;nbsp;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" vertex="1" parent="nF__R8jt9Qr6Ph4q2LOF-5">
+          <mxGeometry y="39.38" width="260" height="280.62" as="geometry" />
+        </mxCell>
+        <mxCell id="nF__R8jt9Qr6Ph4q2LOF-7" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;file1.c&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nF__R8jt9Qr6Ph4q2LOF-5">
+          <mxGeometry x="84.99666666666668" y="5.997272727272728" width="66.66666666666669" height="29.688083177819248" as="geometry" />
+        </mxCell>
+        <mxCell id="nF__R8jt9Qr6Ph4q2LOF-8" value="" style="group;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" vertex="1" connectable="0" parent="nF__R8jt9Qr6Ph4q2LOF-1">
+          <mxGeometry x="200" y="190" width="260" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="nF__R8jt9Qr6Ph4q2LOF-9" value="&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;#ifndef&lt;/font&gt;&lt;/b&gt;&amp;nbsp;FILE2_H&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;&lt;b&gt;#define&lt;/b&gt;&lt;/font&gt;&amp;nbsp;FILE2_H&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot; color=&quot;#00cc00&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;&lt;b style=&quot;border-color: var(--border-color); font-family: &amp;quot;Antikor Mono&amp;quot;;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#3399ff&quot;&gt;#include&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;font face=&quot;Antikor Mono&quot;&gt;&amp;lt;stdio.h&amp;gt;&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#00cc00&quot;&gt;/*Declaration function*/&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-weight: bold; border-color: var(--border-color);&quot; color=&quot;#e10e0e&quot;&gt;void&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;color: rgb(224, 6, 6);&quot;&gt;&amp;nbsp;&lt;/b&gt;file2_update&lt;/font&gt;&lt;/span&gt;();&lt;/font&gt;&lt;font face=&quot;Antikor Mono&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#3399ff&quot;&gt;#endif&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;strokeWidth=2;" vertex="1" parent="nF__R8jt9Qr6Ph4q2LOF-8">
+          <mxGeometry y="28.75" width="260" height="201.25" as="geometry" />
+        </mxCell>
+        <mxCell id="nF__R8jt9Qr6Ph4q2LOF-10" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Antikor Mono&quot;&gt;&lt;b&gt;file2.h&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nF__R8jt9Qr6Ph4q2LOF-8">
+          <mxGeometry x="85.58037878787879" y="-0.71875" width="78.7878787878788" height="31.36363636363636" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-bgFqa0sKsqNlcX1ID5D" name="Page-11">
+    <mxGraphModel dx="1212" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
